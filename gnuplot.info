@@ -1,0 +1,10 @@
+PRGNAM="gnuplot"
+VERSION="6.0.4"
+HOMEPAGE="https://gnuplot.info"
+DOWNLOAD="https://sourceforge.net/projects/gnuplot/files/gnuplot/6.0.4/gnuplot-6.0.4.tar.gz"
+MD5SUM="435f4b112fdf301152a26dbcfbf2ec22"
+DOWNLOAD_x86_64=""
+MD5SUM_x86_64=""
+# Optional requirement of libcerf for error function handling
+MAINTAINER="Brenton Horne"
+EMAIL="brentonhorne77 at gmail dot com"
