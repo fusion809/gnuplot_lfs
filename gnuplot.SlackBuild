@@ -21,9 +21,8 @@
 #
 
 NAME=gnuplot
-VERSION=6.0.4
+VERSION=$(wget -cqO- https://sourceforge.net/p/gnuplot/gnuplot-main/ref/master/tags/ | grep "/tree" | grep -v "git-conv" | tail -n 1 | cut -d '/' -f 6)
 BUILD=1
-ARCH=${ARCH:-i486}
 
 CWD=${CWD:-`pwd`}
 
