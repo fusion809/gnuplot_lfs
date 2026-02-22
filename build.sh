@@ -29,6 +29,7 @@ CWD=${CWD:-`pwd`}
 SRC=$CWD/$NAME-$VERSION
 rm -rf $SRC
 
+wget -c https://sourceforge.net/projects/gnuplot/files/gnuplot/$VERSION/$NAME-$VERSION.tar.gz
 # Extract the sources
 tar -zxvf $CWD/$NAME-$VERSION.tar.gz || exit 3
 cd $SRC
